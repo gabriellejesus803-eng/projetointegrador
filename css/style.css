@@ -1,0 +1,108 @@
+.body{
+    background-color: #e0d3d3;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+
+/* Estilo Geral da Seção Sobre */
+#sobre {
+    background-color: #aaf88b;
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Topo da página */
+.sobre-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sobre-header h1 {
+    font-size: 2.8rem;
+    color: #143625; /* Nosso verde floresta escuro */
+    margin-bottom: 10px;
+}
+
+.sobre-header .subtitulo {
+    font-size: 1.2rem;
+    color: #555555;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Bloco O que é */
+.conteudo-bloco {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    margin-bottom: 40px;
+    line-height: 1.7;
+}
+
+.conteudo-bloco h2 {
+    color: #143625;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+}
+
+/* Alinhamento das Causas e Consequências (Flexbox) */
+.grid-causas-consequencias {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap; /* Faz os cards ficarem um embaixo do outro no celular */
+}
+
+/* Estilo dos Cards */
+.card-sobre {
+    flex: 1;
+    min-width: 280px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+}
+
+/* Cores de destaque sutis para diferenciar os cards */
+.card-sobre.causa {
+    border-top: 5px solid #F26419; /* Laranja para Alerta de Causa */
+}
+
+.card-sobre.consequencia {
+    border-top: 5px solid #e63946; /* Vermelho para Consequência */
+}
+
+.card-sobre h3 {
+    font-size: 1.5rem;
+    color: #143625;
+    margin-bottom: 20px;
+}
+
+/* Estilo das Listas */
+.card-sobre ul {
+    list-style-type: none; /* Remove aquelas bolinhas padrões sem graça */
+    padding-left: 0;
+}
+
+.card-sobre li {
+    margin-bottom: 15px;
+    line-height: 1.5;
+    position: relative;
+    padding-left: 20px;
+    color: #333333;
+}
+
+/* Coloca um detalhe bonitinho antes de cada item da lista */
+.card-sobre li::before {
+    content: "•";
+    color: #143625;
+    font-weight: bold;
+    font-size: 1.2rem;
+    position: absolute;
+    left: 0;
+    top: -2px;
+}

@@ -1,4 +1,40 @@
-Por que essa campanha? 
+📖 Sobre o Projeto
+🌳 Consciência Verde: Pelo Fim do Desmatamento
 
-A urgência é real, o impacto é global.
-O desmatamento não é apenas a perda de árvores; é o silenciamento da maior biodiversidade do planeta e o motor que acelera as mudanças climáticas. Criamos o Consciência Verde porque acreditar que o futuro se protege depois é um erro que não podemos mais cometer.
+Um site institucional e de conscientização focado em educar o público sobre os impactos do desmatamento e promover ações sustentáveis
+
+🎯 Objetivo
+
+Capacitar e conscientizar cidadãos sobre a preservação ambiental, destacando as consequências do desmatamento e oferecendo caminhos práticos para apoiar a causa.
+
+🚀 Tecnologias Utilizadas
+
+  Html, css, desenvolvimento 
+
+💡 Funcionalidades do Site
+
+📱 Página inicial estilo cartaz
+📖 Página explicando a campanha
+✅ Página com ações sustentáveis
+🔗 Navegação entre páginas
+🎨 Layout estilizado com CSS
+
+👩‍💻 Equipe
+Integrante	Função
+Gabriele	desenvolvedora
+
+📂 Estrutura do Projeto
+projeto/
+│
+├── index.html
+├── sobre.html
+├── acoes.html
+│
+├── css/
+│   └── style.css
+│
+├── imagens/
+│
+└── README.md
+
+
