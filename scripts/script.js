@@ -1,10 +1,10 @@
   const acoes = [
-    {icone: "🚰", texto: 'Feche bem a torneira quando não estiver usando'},
-    {icone: "🔔", texto: 'Avise logo se perceber um vazamento'},
-    { icone: '♻️', texto: 'Reutilize água de limpeza quando possível' },
-    { icone: '🥤', texto: 'Use copo ou garrafa reutilizável' },
-    { icone: '💬', texto: 'Conte para seus colegas sobre essas dicas' },
-    { icone: '🌍', texto: 'Multiplique — cada pessoa influencia outras 5'}
+    {icone: "🌱", texto: 'Reduzir o consumo de papel e madeira Utilizar apenas o necessário. Preferir produtos reciclados ou certificados. '},
+    {icone: "🌱", texto: 'Reciclar e reutilizar materiais. Separar corretamente os resíduos.Reaproveitar materiais sempre que possível.'},
+    { icone: '🌱', texto: 'Participar de ações de reflorestamento. Plantar árvores em áreas urbanas ou rurais.Apoiar projetos de recuperação ambiental.' },
+    { icone: '🌱', texto: 'Conscientizar outras pessoas a compartilhar informações sobre os impactos do desmatamento.Incentivar amigos e familiares a adotarem práticas sustentáveis.' },
+    { icone: '🌱', texto: 'Apoiar organizações ambientais. Contribuir com projetos de preservação.Participar de campanhas e iniciativas de proteção das florestas.' },
+    { icone: '🌱', texto: 'Economizar recursos naturais. Reduzir o desperdício de água e energia.Adotar hábitos mais sustentáveis no dia a dia.'}
 ]
 
 

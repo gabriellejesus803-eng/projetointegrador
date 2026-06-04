@@ -12,8 +12,8 @@ html {
 body{
  
       font-family: arial;
-    color: #333333;
-    background-color: rgb(241, 248, 248);
+    color: #b2b2d4;
+    background-color: rgba(178, 190, 187, 0.76);
     line-height: 1.7;
     
    
@@ -24,7 +24,7 @@ body{
 
 .cabecalho {
     
-    background-color: #abcfb0 ;
+    background-color: #daeee6 ;
     text-align: center;
     padding: 40px 20px;
 
@@ -44,13 +44,19 @@ body{
 
 }
 
-.links a {
-
-    color: green;
-    text-decoration: none;
-    font-weight: bold;
-    transition: 0.4s;   
+.links  {
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        gap: 15px;
+        
+        color: green;
+        text-decoration: none;
+        font-weight: bold;
+        transition: 0.4s;
 }
+    
+
 
 h1{
    
@@ -88,7 +94,18 @@ h2{
     border-left: 4px solid #49ca2f;
     padding-left: 15px;
 }
+ .titulo4{
 
+    color: #2d6a4f;
+    border-left: 4px solid #49ca2f;
+    padding-left: 15px;   
+}
+
+.titulo5{
+    color: #2d6a4f;
+    border-left: 4px solid #49ca2f;
+    padding-left: 15px;   
+}
 .container-central{
     max-width: 800px;
     margin: 0 auto;
@@ -99,7 +116,9 @@ section {
     margin: 0 auto;
 }
 
-
+.imagemglobo {
+    order: 3;
+}
 
 
 
@@ -202,21 +221,41 @@ section {
     text-align: center;
 }
 .descricao{
- font-size: 18px;
+ font-size: 20px;
     text-align: center;
     color: #2d6a4f;
 
 }
 .links2{
-    background-color: #f0f4f8;
+     background-color: #f0f4f8;
     padding: 15px;
     border-bottom: 2px solid green;
-
     display: flex;
     justify-content: center; 
     align-items: center;
     gap: 15px;
+    
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.4s;   
 }
+
+.links3{
+    background-color: #f0f4f8;
+    padding: 15px;
+    border-bottom: 2px solid green;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 15px;
+    
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.4s;   
+}
+
 
 
 ul {
@@ -254,16 +293,6 @@ footer {
 
 .cabecalho2 {
     text-align: center;
-}
-.links3{
-    background-color: #f0f4f8;
-    padding: 15px;
-    border-bottom: 2px solid green;
-
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    gap: 15px;
 }
 
 
@@ -361,4 +390,12 @@ footer {
     text-decoration: none;
     font-weight: bold;
     margin: 15px 0;
+}
+
+
+.imagem2 {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
 }
